@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   deobfuscator:
-    specifier: ^2.4.5
-    version: 2.4.5
+    specifier: 2.4.3
+    version: 2.4.3
   webcrack:
     specifier: ^2.10.0
     version: 2.10.0
@@ -445,8 +445,8 @@ packages:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
     dev: false
 
-  /deobfuscator@2.4.5:
-    resolution: {integrity: sha512-sNr1O0dIL+aW5jp2kPTndbCQAih7MFaFMsVtUK+sV/R/8/isFq4upVYPOzN/TRtTHyJiHJAH4dxhFGawhTK2GQ==}
+  /deobfuscator@2.4.3:
+    resolution: {integrity: sha512-CrlOe8x4e2OhGJzdeiWpN5Zj9QmixXCqvtc1EvchlEvq1bdTyZn7N9wkBMVoqc9oiDkoQ2HabnK2hfucYXSpfQ==}
     hasBin: true
     dependencies:
       '@javascript-obfuscator/escodegen': 2.3.0
@@ -455,6 +455,7 @@ packages:
       acorn-walk: 8.2.0
       eslint-scope: 7.1.1
       mersenne-twister: 1.1.0
+      prettier: 2.5.1
       yargs: 17.3.1
     dev: false
 
@@ -697,6 +698,12 @@ packages:
   /prelude-ls@1.1.2:
     resolution: {integrity: sha512-ESF23V4SKG6lVSGZgYNpbsiaAkdab6ZgOxe52p7+Kid3W3u3bxR4Vfd/o21dmN7jSt0IwgZ4v5MUd26FEtXE9w==}
     engines: {node: '>= 0.8.0'}
+    dev: false
+
+  /prettier@2.5.1:
+    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: false
 
   /pump@3.0.0:
